@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QamXN0m5MRanJhJljqWkunF871eI6SBdtel0VkeiA+3oSRPV8cH1pjvpBx5GzvLXjEHDkWsZvkxNYNMsgkJYWw==",
+  "dgSpecHash": "Ug3Qj8GkFbABsRUwuGD3QnsA5XyLY8NwScx602YIWM4d14Y5kcpCWZCJGN8k2fdUTLKLasSfymi/cNXtXg2Llw==",
   "success": true,
-  "projectFilePath": "D:\\BankApp\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\Repositories\\BankApp\\BLL\\BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
