@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    public enum UserAccess
+    public enum UserAccess_enum
     {
         Teller = 1, 
         Credit_Expert,
