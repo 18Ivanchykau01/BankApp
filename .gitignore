@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.vsidx
+Bank_DAL/DAL/.vs/DAL/FileContentIndex/05c199c3-c201-4a3f-82ac-867b342b90c7.vsidx
+*.vsidx
+*.v2
+Bank_DAL/DAL/.vs/DAL/v17/.futdcache.v2
+Bank_DAL/DAL/.vs/DAL/v17/.suo
+*.bin
+*.bin
+Bank_DAL/DAL/.vs/DAL/v17/.suo
+Bank_DAL/DAL/.vs/DAL/v17/.futdcache.v2
+Bank_DAL/DAL/.vs/ProjectEvaluation/dal.metadata.v7.bin
+Bank_DAL/DAL/.vs/ProjectEvaluation/dal.projects.v7.bin
