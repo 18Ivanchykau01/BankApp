@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositories\\BankApp\\WebApp\\WebApp.csproj": {}
+    "D:\\Bank\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj": {
+    "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\kanad\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\obj\\",
+        "outputPath": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,27 +78,42 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repositories\\BankApp\\BLL\\BLL.csproj": {
+    "D:\\Bank\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\BankApp\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Bank\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Repositories\\BankApp\\BLL\\BLL.csproj",
+        "projectPath": "D:\\Bank\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\kanad\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\BankApp\\BLL\\obj\\",
+        "outputPath": "D:\\Bank\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,75 +128,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Repositories\\BankApp\\WebApp\\WebApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Repositories\\BankApp\\WebApp\\WebApp.csproj",
-        "projectName": "WebApp",
-        "projectPath": "D:\\Repositories\\BankApp\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\kanad\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\BankApp\\WebApp\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\kanad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj"
-              },
-              "D:\\Repositories\\BankApp\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Repositories\\BankApp\\BLL\\BLL.csproj"
+              "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj"
               }
             }
           }
@@ -200,10 +156,110 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bank\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bank\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "D:\\Bank\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\kanad\\.nuget\\packages\\",
+        "outputPath": "D:\\Bank\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kanad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj"
+              },
+              "D:\\Bank\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Bank\\BLL\\BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -212,7 +268,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

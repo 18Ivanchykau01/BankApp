@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QvOmXZcD7fduJvYPxO4Y9NEQR5zyOhOM+1C4iwbLuxQuV/BcQ/WstZ0poVW6tiFMsXlHDkR5e9adDUu25wKSSQ==",
+  "dgSpecHash": "tagGLrRn+vErs8WvMuYeq/aHYB9C2ayT/mPJmUJ36IH0/DRdFLMLnrhPAgg0g8o994VbP0NSfTC+XAKcUkADZQ==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\BankApp\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Bank\\Bank_DAL\\DAL\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanad\\.nuget\\packages\\entityframeworkcore.memoryjoin\\0.7.6\\entityframeworkcore.memoryjoin.0.7.6.nupkg.sha512",
     "C:\\Users\\kanad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -109,7 +109,10 @@
     "C:\\Users\\kanad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\kanad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\kanad\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\kanad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\kanad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\kanad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kanad\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\kanad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

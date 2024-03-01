@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = D:\Repositories\BankApp\WebApp\
+build_property.ProjectDir = D:\Bank\WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

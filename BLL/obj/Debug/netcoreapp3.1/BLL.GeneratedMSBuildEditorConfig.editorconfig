@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = BLL
-build_property.ProjectDir = D:\Repositories\BankApp\BLL\
+build_property.ProjectDir = D:\Bank\BLL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
